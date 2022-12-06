@@ -98,3 +98,10 @@ $gradientBgColor2 : linear-gradient(180deg,#ffffff 0%,#f0d114 100%);
         background-color: #bad4e4;
     }
 }
+@mixin title {
+    color: $titleColor;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}

@@ -4,6 +4,7 @@
     position: fixed;
     width: 100%;
     border-bottom: 2px solid rgb(203,39,46);
+    z-index: 999;
 }
 .header__box {
     display: flex;

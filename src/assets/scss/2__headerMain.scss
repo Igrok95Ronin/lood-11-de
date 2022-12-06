@@ -12,11 +12,7 @@
 .headerMain__wrapper {
 }
 .headerMain__title {
-    color: $titleColor;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1.3em;
-    letter-spacing: 1px;
+    @include title;
 }
 .headerMain__dscr {
     font-size: 20px;

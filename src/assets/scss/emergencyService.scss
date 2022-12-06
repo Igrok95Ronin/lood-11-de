@@ -1,0 +1,25 @@
+.emergencyService {
+}
+.emergencyService__box {
+    background-image: $gradientBgColor;
+    padding: 100px 12px;
+    display: flex;
+    gap: 50px;
+}
+.emergencyService__img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.emergencyService__inner {
+}
+.emergencyService__title {
+    @include title;
+    font-size: 45px;
+}
+.emergencyService__dscr {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
