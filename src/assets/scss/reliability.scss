@@ -1,0 +1,27 @@
+.reliability {
+}
+.reliability__box {
+    background-image: $gradientBgColor2;
+    padding: 100px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.reliability__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.reliability__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.reliability__title {
+    @include title;
+    font-size: 34px;
+}
+.reliability__dscr {
+    line-height: 25px;
+}

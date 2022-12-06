@@ -1,0 +1,13 @@
+.forms {
+}
+.forms__title {
+    text-align: center;
+    color: $btnColor;
+}
+.forms__box {
+    background-image: $gradientBgColor;
+    padding: 0px 100px 30px;
+}
+.forms__button {
+    @include btn
+}
