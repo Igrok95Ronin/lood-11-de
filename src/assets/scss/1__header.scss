@@ -1,6 +1,9 @@
 .header {
     background-color: $bgColor;
     padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid rgb(203,39,46);
 }
 .header__box {
     display: flex;

@@ -69,3 +69,31 @@ $bgColor : #f0d114;
 $btnColor : #cb272e;
 $titleColor : #cb272e;
 $gradientBgColor : linear-gradient(180deg,#f0d114 0%,#ffffff 100%);
+
+//mixin
+@mixin btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: $btnColor;
+    border-radius: 0 0 0 0;
+    padding: 15px 40px 15px 60px;
+    color: #fff;
+    transition: .3s;
+    span {
+        position: relative;
+        &::before {
+            content: "\e900";
+            position: absolute;
+            font-family: 'icomoon';
+            font-size: 22px;
+            left: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &:hover {
+        color: #54595f;
+        background-color: #bad4e4;
+    }
+}
