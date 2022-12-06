@@ -1,0 +1,32 @@
+.header {
+    background-color: $bgColor;
+    padding: 16px 0;
+}
+.header__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.header__img {
+    width: auto;
+    max-height: 100px;
+}
+.header__btn {
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    span{
+        position: relative;
+        transition: .3s;
+        &::before {
+            content: "\e900";
+            position: absolute;
+            font-family: 'icomoon';
+            font-size: 20px;
+            left: -25px;
+        }
+    }
+}
