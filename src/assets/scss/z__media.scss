@@ -1,0 +1,156 @@
+@media(max-width: 1023px) {
+    .service__inner {
+        padding: 35px 10px;
+    }
+    .service__box {
+        padding: 100px 10px;
+    }
+    .aSmallExcerpt__name {
+        font-size: 20px;
+    }
+    .aSmallExcerpt__inner {
+        padding: 20px;
+    }
+    .garantie__bottom {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .garantie__txt {
+        padding: 15px 0 0;
+    }
+    .garantie__dscr {
+        font-size: 17px;
+    }
+    
+}
+@media(max-width: 768px) {
+    .headerMain__box {
+        padding: 70px 30px 30px;
+    }
+}
+@media(max-width: 767px) {
+    .header__box {
+        padding: 0;
+    }
+    .headerMain__box {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .service__box{
+        grid-template-columns: 1fr;
+        padding: 70px 25px;
+    }
+    .emergencyService__box {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+    .aSmallExcerpt__box {
+        padding: 70px 25px;
+    }
+    .aSmallExcerpt__wrapper {
+        grid-template-columns: 1fr;
+    }
+    .emergencyService__wrapper {
+        justify-content: center;
+    }
+    .emergencyService__title {
+        text-align: center;
+    }
+    .emergencyService__inner2{
+        text-align: center;
+    }
+    .garantie__top {
+        grid-template-columns: 1fr;
+    }
+    .garantie__box {
+        padding: 70px 25px;
+    }
+    .garantie__name {
+        text-align: center;
+    }
+    .garantie__btnInner{
+        text-align: center;
+    }
+    .reliability__box {
+        grid-template-columns: 1fr;
+        padding: 70px 25px;
+        gap: 50px;
+    }
+    .reliabity__btnWrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .reliability__title {
+        text-align: center;
+    }
+    .reliability__dscr {
+        padding: 20px 0;
+    }
+    .forms__box {
+        padding: 0 50px 30px;
+    }
+
+}
+@media(max-width: 425px) {
+    .headerMain__dscr {
+        font-size: 16px;
+    }
+    .service__box {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        padding: 70px 12px;
+    }
+    .garantie__box {
+        padding: 40px 25px;
+    }
+    .garantie__top {
+        padding-bottom: 70px;
+    }
+    .forms__box {
+        padding: 0 25px 30px;
+    }
+    .footer__box {
+        margin-bottom: 53px;
+    }
+    .phoneFixed {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .hponeFixe__btn {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        transition: .3s;
+        width: 100%;
+        text-align: center;
+        background-color: #0b0;
+        padding: 15px 0;
+        span{
+            position: relative;
+            &::before {
+                content: "\e900";
+                position: absolute;
+                font-family: 'icomoon';
+                font-size: 22px;
+                left: -25px;
+                top: 45%;
+                transform: translateY(-50%);
+            }
+        }
+        &:hover {
+            color: #54595f;
+            background-color: #bad4e4;
+        }
+    }
+}
+@media(max-width: 424px) {
+    .header__btn {
+        display: none;
+    }
+    .header__box {
+        flex-direction: column;
+    }
+}

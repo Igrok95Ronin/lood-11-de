@@ -7,6 +7,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
+.reliability__wrapperImg {
+    display: flex;
+    align-items: center;
+}
 .reliability__img {
     width: 100%;
     height: auto;
@@ -20,8 +24,9 @@
 }
 .reliability__title {
     @include title;
-    font-size: 34px;
+    font-size: clamp(21px, 6vw, 34px);
 }
 .reliability__dscr {
     line-height: 25px;
+    padding: 5px 0;
 }
